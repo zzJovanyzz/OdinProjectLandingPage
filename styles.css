@@ -1,11 +1,17 @@
-button{
-    background-color: #3882f6;
-    border: 0px;
-    border-radius: 10px;
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer{
+    background-color: #1f2937;
     color: white;
-    font-size: 20px;
-    height: 40px;
-    width: 150px;
+    display: flex;
+    flex-grow: 1;
+    padding: 50px;
+    justify-content: center;
+
 }
 
 nav{
@@ -20,6 +26,34 @@ nav ul{
     
 }
 
+#action_header{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+#action_b{
+    align-self: center;
+    background-color: #3882f6;
+    border-radius: 8px;
+    border-style: solid;
+    color: white;
+    font-size: 24px;
+    height: 45px;
+    width: 150px;
+
+}
+
+#action_div{
+    padding-right: 200px;
+}
+
+#action_p{
+    color: #e5e7eb;
+    margin-top: 0px;
+    align-self: center;
+    justify-content: center;
+}
+
 #awesome{
     color: #f9faf8;
     font-family: sans-serif;
@@ -27,6 +61,16 @@ nav ul{
     font-weight: 800;
     margin-bottom: 0px;
     padding-bottom: 0px;
+}
+
+#first_b{
+    background-color: #3882f6;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
 }
 
 #first_block{
@@ -43,6 +87,32 @@ nav ul{
     display: flex;
     flex-grow: 1;
     padding-bottom: 150px;
+}
+
+#fourth_block{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-grow: 1;
+}
+
+#fourth_flex{
+    align-self: center;
+    background-color: #3882f6;
+    border-radius: 9px;
+    color: white;
+    display: flex;
+    font-family: sans-serif;
+    font-size: 22px;
+    flex-grow: 1;
+    font-weight: 300;
+    justify-content: center;
+    margin-bottom: 110px;
+    margin-top: 110px;
+    padding-bottom: 50px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-top: 40px;
 }
 
 #h_logo{
