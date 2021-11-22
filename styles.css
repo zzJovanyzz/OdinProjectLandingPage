@@ -80,7 +80,7 @@ nav ul{
 #second_flex{
     display: flex;
     flex-grow: 1;
-
+    row-gap: 0px;  
 }
 
 #sign_up_div{
