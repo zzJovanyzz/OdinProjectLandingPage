@@ -1,0 +1,61 @@
+nav{
+    flex-grow: 1;
+    justify-content: flex-end;
+}
+
+nav ul{
+    list-style-type: none;
+    
+}
+
+#first_block{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+
+#first_flex{
+    display: flex;
+    flex-grow: 1;
+
+}
+
+#h_logo{
+    align-self: flex-end;
+    flex-grow: 1;
+}
+
+#img{
+    align-self: center;
+}
+
+#my_list{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#placeholder_img{
+    background-color: gray;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+#second_flex{
+    display: flex;
+    flex-grow: 1;
+
+}
+
+#sign_up_div{
+    flex-grow: 1;
+}
+
+.my_nav{
+    display: inline-block;
+    justify-content: flex-end;
+    margin: 13px;
+}
